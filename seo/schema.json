@@ -3,12 +3,12 @@
   "@graph": [
     {
       "@type": "RealEstateAgent",
-      "@id": "https://imaugem.pt/#organization",
-      "name": "Imaugem – MaisConsultores #RealEstateCascais",
-      "alternateName": ["Imaugem", "MaisConsultores RealEstateCascais", "Real Estate Cascais"],
-      "url": "https://imaugem.pt",
-      "logo": "https://imaugem.pt/logo.png",
-      "image": "https://imaugem.pt/foto-agencia.jpg",
+      "@id": "https://www.imaugem.pt/#organization",
+      "name": "IMAUGEM – MaisConsultores #RealEstateCascais",
+      "alternateName": ["IMAUGEM", "MaisConsultores RealEstateCascais", "Real Estate Cascais"],
+      "url": "https://www.imaugem.pt",
+      "logo": "https://www.imaugem.pt/logo.png",
+      "image": "https://www.imaugem.pt/foto-agencia.jpg",
       "description": "Agência imobiliária em Cascais integrada na rede MaisConsultores #RealEstateCascais. Especialistas na compra, venda e arrendamento de imóveis na Linha de Cascais, Estoril e arredores.",
       "slogan": "O seu imóvel em Cascais, com quem conhece cada rua.",
       "foundingDate": "2015",
@@ -25,7 +25,6 @@
         "latitude": 38.6963,
         "longitude": -9.4215
       },
-      "telephone": "+351215814787",
       "email": "realestatecascais@maisconsultores.pt",
       "openingHoursSpecification": [
         {
@@ -58,7 +57,7 @@
       "employee": [
         {
           "@type": "RealEstateAgent",
-          "@id": "https://imaugem.pt/agente/miguel-bicho",
+          "@id": "https://www.imaugem.pt/agente/miguel-bicho",
           "name": "Miguel Bicho",
           "jobTitle": "Consultor Imobiliário",
           "telephone": "+351932530005",
@@ -70,14 +69,14 @@
         },
         {
           "@type": "RealEstateAgent",
-          "@id": "https://imaugem.pt/agente/joao-vicente",
+          "@id": "https://www.imaugem.pt/agente/joao-vicente",
           "name": "João Vicente",
           "jobTitle": "Consultor Imobiliário",
           "url": "https://www.maisconsultores.pt/consultor-imobiliario/joao-vicente"
         },
         {
           "@type": "RealEstateAgent",
-          "@id": "https://imaugem.pt/agente/georgina-silva",
+          "@id": "https://www.imaugem.pt/agente/georgina-silva",
           "name": "Georgina Silva",
           "jobTitle": "Consultora Imobiliária",
           "url": "https://ginasilva.maisconsultores.pt/",
@@ -87,14 +86,14 @@
         },
         {
           "@type": "RealEstateAgent",
-          "@id": "https://imaugem.pt/agente/georgina-antigo",
+          "@id": "https://www.imaugem.pt/agente/georgina-antigo",
           "name": "Georgina Antigo",
           "jobTitle": "Consultora Imobiliária",
           "url": "https://www.maisconsultores.pt/consultor-imobiliario/georgina-old"
         },
         {
           "@type": "RealEstateAgent",
-          "@id": "https://imaugem.pt/agente/bruno-ferreira",
+          "@id": "https://www.imaugem.pt/agente/bruno-ferreira",
           "name": "Bruno Ferreira",
           "jobTitle": "Consultor Imobiliário",
           "email": "brunoferreira@maisconsultores.pt",
@@ -102,7 +101,7 @@
         },
         {
           "@type": "RealEstateAgent",
-          "@id": "https://imaugem.pt/agente/veronica-iacob",
+          "@id": "https://www.imaugem.pt/agente/veronica-iacob",
           "name": "Veronica Iacob",
           "jobTitle": "Consultora Imobiliária",
           "url": "https://www.maisconsultores.pt/consultor-imobiliario/veronica-iacob"
@@ -116,23 +115,23 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://imaugem.pt/#website",
-      "url": "https://imaugem.pt",
-      "name": "Imaugem – Imobiliária em Cascais",
+      "@id": "https://www.imaugem.pt/#website",
+      "url": "https://www.imaugem.pt",
+      "name": "IMAUGEM – Imobiliária em Cascais",
       "description": "Compra, venda e arrendamento de imóveis em Cascais, Estoril e Linha de Cascais.",
       "inLanguage": "pt-PT",
-      "publisher": { "@id": "https://imaugem.pt/#organization" },
+      "publisher": { "@id": "https://www.imaugem.pt/#organization" },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://imaugem.pt/imoveis?q={search_term_string}",
+        "target": "https://www.imaugem.pt/imoveis?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://imaugem.pt/#localbusiness",
-      "name": "Imaugem – MaisConsultores #RealEstateCascais",
-      "image": "https://imaugem.pt/foto-agencia.jpg",
+      "@id": "https://www.imaugem.pt/#localbusiness",
+      "name": "IMAUGEM – MaisConsultores #RealEstateCascais",
+      "image": "https://www.imaugem.pt/foto-agencia.jpg",
       "priceRange": "€€€",
       "currenciesAccepted": "EUR",
       "paymentAccepted": "Transferência bancária, Cheque",
@@ -143,8 +142,7 @@
         "postalCode": "2750-513",
         "addressCountry": "PT"
       },
-      "telephone": "+351215814787",
-      "url": "https://imaugem.pt",
+      "url": "https://www.imaugem.pt",
       "hasMap": "https://www.google.com/maps?cid=12678463149273912508"
     }
   ]
