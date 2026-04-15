@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - claude/extract-cascais-leads-IcDrb
+    paths:
+      - 'scrape_gh_action.js'
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@v4
@@ -29,11 +31,10 @@ jobs:
         env:
           CI: true
 
-      - name: Upload results
-        uses: actions/upload-artifact@v4
-        with:
-          name: cascais-phones
-          path: |
-            cascais_phones.json
-            agency_page.html
-          if-no-files-found: warn
+      - name: Commit results back to branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cascais_phones.json agency_page.html || true
+          git diff --cached --quiet || git commit -m "chore: add scrape results [skip ci]"
+          git push
