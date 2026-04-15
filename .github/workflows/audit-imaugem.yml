@@ -1,0 +1,38 @@
+name: Audit imaugem.pt SEO
+
+on:
+  push:
+    branches:
+      - claude/extract-cascais-leads-IcDrb
+    paths:
+      - 'audit_imaugem.js'
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright
+        run: |
+          npm init -y
+          npm install playwright
+          npx playwright install chromium --with-deps
+
+      - name: Run SEO audit
+        run: node audit_imaugem.js
+
+      - name: Commit audit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add imaugem_audit_raw.json imaugem_audit_summary.txt || true
+          git diff --cached --quiet || git commit -m "chore: add imaugem.pt audit results [skip ci]"
+          git push
