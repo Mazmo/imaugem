@@ -1,0 +1,114 @@
+[
+  {
+    "url": "https://www.imaugem.pt/robots.txt",
+    "slug": "robots",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/sitemap.xml",
+    "slug": "sitemap",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/",
+    "slug": "home",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/sobre",
+    "slug": "sobre",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/quem-somos",
+    "slug": "quem-somos",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/about",
+    "slug": "about",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/contactos",
+    "slug": "contactos",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/contact",
+    "slug": "contact",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/servicos",
+    "slug": "servicos",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/imoveis",
+    "slug": "imoveis",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/properties",
+    "slug": "properties",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/en",
+    "slug": "en-home",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/blog",
+    "slug": "blog",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.imaugem.pt/404-test-page-nonexistent",
+    "slug": "404test",
+    "status": 403,
+    "error": null,
+    "htmlLen": 172,
+    "contentType": "text/plain"
+  }
+]
