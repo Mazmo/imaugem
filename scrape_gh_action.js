@@ -1,6 +1,7 @@
 /**
  * Scrape MaisConsultores #RealEstateCascais agent phones.
  * Designed to run inside GitHub Actions where the site is accessible.
+ * v2: improved selectors + subdomain pages
  */
 const { chromium } = require('playwright');
 const fs = require('fs');
