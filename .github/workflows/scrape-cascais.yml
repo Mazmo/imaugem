@@ -1,6 +1,9 @@
 name: Scrape MaisConsultores RealEstateCascais Phones
 
 on:
+  push:
+    branches:
+      - claude/extract-cascais-leads-IcDrb
   workflow_dispatch:
 
 jobs:
@@ -30,5 +33,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cascais-phones
-          path: cascais_phones.json
+          path: |
+            cascais_phones.json
+            agency_page.html
           if-no-files-found: warn
