@@ -1,0 +1,110 @@
+{
+  "objetivo": "Máxima visibilidade online para Imaugem / MaisConsultores #RealEstateCascais",
+  "estado": "usar este ficheiro para acompanhar o registo em cada plataforma",
+
+  "portais_imoveis_portugal": [
+    { "nome": "Idealista",        "url": "https://www.idealista.pt/pro/maisconsultores-realestatecascais/", "estado": "registado" },
+    { "nome": "Supercasa",        "url": "https://supercasa.pt/pro/maisconsultores-realestatecascais-71269", "estado": "registado" },
+    { "nome": "Imovirtual",       "url": "https://www.imovirtual.com/pt/empresas/agencias-imobiliarias/maisconsultores-ID492612", "estado": "registado" },
+    { "nome": "Casa Sapo",        "url": "https://casa.sapo.pt/en_gb/property-agents/cascais/", "estado": "verificar" },
+    { "nome": "CasaCerta",        "url": "https://casacerta.pt", "estado": "verificar" },
+    { "nome": "OLX Imóveis",      "url": "https://www.olx.pt", "estado": "verificar" },
+    { "nome": "Properstar",       "url": "https://www.properstar.com/real-estate-agent/georgina-silva", "estado": "verificar" },
+    { "nome": "Kyero",            "url": "https://www.kyero.com", "estado": "registar" },
+    { "nome": "Green-Acres",      "url": "https://www.green-acres.pt", "estado": "registar" },
+    { "nome": "Rightmove",        "url": "https://www.rightmove.co.uk/overseas-property/in-Portugal/", "estado": "registar" },
+    { "nome": "Zoopla",           "url": "https://www.zoopla.co.uk/overseas/", "estado": "registar" },
+    { "nome": "Tranio",           "url": "https://tranio.com/portugal/cascais/", "estado": "registar" },
+    { "nome": "JamesEdition",     "url": "https://www.jamesedition.com/real-estate/portugal/", "estado": "registar" }
+  ],
+
+  "motores_busca": [
+    {
+      "nome": "Google Search Console",
+      "url": "https://search.google.com/search-console",
+      "acao": "Adicionar propriedade imaugem.pt e submeter sitemap.xml",
+      "estado": "pendente"
+    },
+    {
+      "nome": "Bing Webmaster Tools",
+      "url": "https://www.bing.com/webmasters",
+      "acao": "Verificar site e submeter sitemap.xml",
+      "estado": "pendente"
+    },
+    {
+      "nome": "Google Business Profile",
+      "url": "https://business.google.com",
+      "acao": "Completar perfil: fotos, posts, produtos, perguntas e respostas, responder a reviews",
+      "estado": "ativo – otimizar"
+    }
+  ],
+
+  "redes_sociais": [
+    { "nome": "Facebook",   "url": "https://www.facebook.com/MaisConsultoresRealEstateCascais", "estado": "ativo" },
+    { "nome": "Instagram",  "url": "https://www.instagram.com/maisconsultores/",                 "estado": "verificar" },
+    { "nome": "LinkedIn",   "url": "https://pt.linkedin.com/company/mcrealestatecascais",        "estado": "ativo" },
+    { "nome": "YouTube",    "url": "https://www.youtube.com",                                     "estado": "criar canal" },
+    { "nome": "TikTok",     "url": "https://www.tiktok.com",                                      "estado": "criar conta" },
+    { "nome": "Pinterest",  "url": "https://www.pinterest.pt",                                    "estado": "criar conta" }
+  ],
+
+  "diretorios_locais_portugal": [
+    { "nome": "Páginas Amarelas",     "url": "https://www.pai.pt",           "estado": "registar" },
+    { "nome": "Infoisinfo",           "url": "https://cascais.infoisinfo.com.pt", "estado": "registar" },
+    { "nome": "Einforma",             "url": "https://www.einforma.pt",       "estado": "verificar dados" },
+    { "nome": "Racius",               "url": "https://www.racius.com",        "estado": "verificar dados" },
+    { "nome": "Portal Nacional",      "url": "https://portalnacional.com.pt", "estado": "registar" },
+    { "nome": "Zaask",                "url": "https://www.zaask.pt",          "estado": "registar" },
+    { "nome": "Habitania",            "url": "https://www.habitania.com",     "estado": "verificar" }
+  ],
+
+  "diretorios_internacionais": [
+    { "nome": "Foursquare / Yelp",  "estado": "registar" },
+    { "nome": "TripAdvisor",        "estado": "registar" },
+    { "nome": "Apple Maps Connect", "url": "https://mapsconnect.apple.com", "estado": "registar" },
+    { "nome": "Waze",               "estado": "verificar pino" }
+  ],
+
+  "ai_search_engines": [
+    {
+      "nome": "ChatGPT / OpenAI",
+      "acao": "Garantir llms.txt em imaugem.pt/llms.txt. Ser citado em páginas indexadas por Common Crawl e Bing.",
+      "estado": "implementar llms.txt"
+    },
+    {
+      "nome": "Perplexity AI",
+      "acao": "Perplexity usa Bing + Yelp + fontes web. Estar bem posicionado no Google garante visibilidade.",
+      "estado": "melhoria SEO geral"
+    },
+    {
+      "nome": "Google Gemini / SGE",
+      "acao": "Google Business Profile completo + schema.org = aparece nas respostas de IA do Google.",
+      "estado": "otimizar GBP"
+    },
+    {
+      "nome": "Microsoft Copilot",
+      "acao": "Bing Webmaster Tools verificado. O Copilot usa os resultados do Bing.",
+      "estado": "submeter a Bing"
+    },
+    {
+      "nome": "Claude (Anthropic)",
+      "acao": "Presença em fontes indexadas publicamente (Bing, Google, portais). llms.txt ajuda futuros modelos.",
+      "estado": "implementar llms.txt"
+    }
+  ],
+
+  "acoes_prioritarias": [
+    "1. Adicionar schema.json ao <head> de imaugem.pt (ver seo/schema.json)",
+    "2. Colocar llms.txt em https://imaugem.pt/llms.txt (ver seo/llms.txt)",
+    "3. Colocar sitemap.xml em https://imaugem.pt/sitemap.xml",
+    "4. Colocar robots.txt em https://imaugem.pt/robots.txt",
+    "5. Submeter sitemap no Google Search Console",
+    "6. Submeter sitemap no Bing Webmaster Tools",
+    "7. Completar Google Business Profile: fotos, horário, serviços, posts semanais",
+    "8. Garantir NAP consistente em TODOS os diretórios (mesmo Nome, Morada, Telefone)",
+    "9. Registar em Kyero, Rightmove, Zoopla (mercado internacional)",
+    "10. Criar perfil em Apple Maps Connect",
+    "11. Adicionar testemuhos/avaliações no Google Business Profile",
+    "12. Publicar conteúdo regular no blog do site (mercado imobiliário Cascais)"
+  ]
+}

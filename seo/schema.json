@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://imaugem.pt/#organization",
+      "name": "Imaugem – MaisConsultores #RealEstateCascais",
+      "alternateName": ["Imaugem", "MaisConsultores RealEstateCascais", "Real Estate Cascais"],
+      "url": "https://imaugem.pt",
+      "logo": "https://imaugem.pt/logo.png",
+      "image": "https://imaugem.pt/foto-agencia.jpg",
+      "description": "Agência imobiliária em Cascais integrada na rede MaisConsultores #RealEstateCascais. Especialistas na compra, venda e arrendamento de imóveis na Linha de Cascais, Estoril e arredores.",
+      "slogan": "O seu imóvel em Cascais, com quem conhece cada rua.",
+      "foundingDate": "2015",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida 25 de Abril, nº 5, R/c A",
+        "addressLocality": "Cascais",
+        "addressRegion": "Cascais e Estoril",
+        "postalCode": "2750-513",
+        "addressCountry": "PT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.6963,
+        "longitude": -9.4215
+      },
+      "telephone": "+351215814787",
+      "email": "realestatecascais@maisconsultores.pt",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "09:00",
+          "closes": "18:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:30",
+          "closes": "13:00"
+        }
+      ],
+      "areaServed": [
+        "Cascais", "Estoril", "Birre", "Alcabideche",
+        "São Domingos de Rana", "Carcavelos", "Parede",
+        "Sintra", "Oeiras", "Lisboa"
+      ],
+      "hasMap": "https://www.google.com/maps?cid=12678463149273912508",
+      "sameAs": [
+        "https://www.maisconsultores.pt/agencias/realestatecascais",
+        "https://www.facebook.com/MaisConsultoresRealEstateCascais",
+        "https://pt.linkedin.com/company/mcrealestatecascais",
+        "https://www.instagram.com/maisconsultores/",
+        "https://supercasa.pt/pro/maisconsultores-realestatecascais-71269",
+        "https://www.idealista.pt/pro/maisconsultores-realestatecascais/"
+      ],
+      "employee": [
+        {
+          "@type": "RealEstateAgent",
+          "@id": "https://imaugem.pt/agente/miguel-bicho",
+          "name": "Miguel Bicho",
+          "jobTitle": "Consultor Imobiliário",
+          "telephone": "+351932530005",
+          "url": "https://miguelbicho.maisconsultores.pt/",
+          "sameAs": [
+            "https://www.maisconsultores.pt/consultor-imobiliario/miguel-bicho",
+            "https://pt.linkedin.com/in/miguel-bicho-92478521"
+          ]
+        },
+        {
+          "@type": "RealEstateAgent",
+          "@id": "https://imaugem.pt/agente/joao-vicente",
+          "name": "João Vicente",
+          "jobTitle": "Consultor Imobiliário",
+          "url": "https://www.maisconsultores.pt/consultor-imobiliario/joao-vicente"
+        },
+        {
+          "@type": "RealEstateAgent",
+          "@id": "https://imaugem.pt/agente/georgina-silva",
+          "name": "Georgina Silva",
+          "jobTitle": "Consultora Imobiliária",
+          "url": "https://ginasilva.maisconsultores.pt/",
+          "sameAs": [
+            "https://www.maisconsultores.pt/consultor-imobiliario/georgina-silva"
+          ]
+        },
+        {
+          "@type": "RealEstateAgent",
+          "@id": "https://imaugem.pt/agente/georgina-antigo",
+          "name": "Georgina Antigo",
+          "jobTitle": "Consultora Imobiliária",
+          "url": "https://www.maisconsultores.pt/consultor-imobiliario/georgina-old"
+        },
+        {
+          "@type": "RealEstateAgent",
+          "@id": "https://imaugem.pt/agente/bruno-ferreira",
+          "name": "Bruno Ferreira",
+          "jobTitle": "Consultor Imobiliário",
+          "email": "brunoferreira@maisconsultores.pt",
+          "url": "https://bferreira.maisconsultores.pt/"
+        },
+        {
+          "@type": "RealEstateAgent",
+          "@id": "https://imaugem.pt/agente/veronica-iacob",
+          "name": "Veronica Iacob",
+          "jobTitle": "Consultora Imobiliária",
+          "url": "https://www.maisconsultores.pt/consultor-imobiliario/veronica-iacob"
+        }
+      ],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "MaisConsultores",
+        "url": "https://www.maisconsultores.pt"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://imaugem.pt/#website",
+      "url": "https://imaugem.pt",
+      "name": "Imaugem – Imobiliária em Cascais",
+      "description": "Compra, venda e arrendamento de imóveis em Cascais, Estoril e Linha de Cascais.",
+      "inLanguage": "pt-PT",
+      "publisher": { "@id": "https://imaugem.pt/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://imaugem.pt/imoveis?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://imaugem.pt/#localbusiness",
+      "name": "Imaugem – MaisConsultores #RealEstateCascais",
+      "image": "https://imaugem.pt/foto-agencia.jpg",
+      "priceRange": "€€€",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Transferência bancária, Cheque",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida 25 de Abril, nº 5, R/c A",
+        "addressLocality": "Cascais",
+        "postalCode": "2750-513",
+        "addressCountry": "PT"
+      },
+      "telephone": "+351215814787",
+      "url": "https://imaugem.pt",
+      "hasMap": "https://www.google.com/maps?cid=12678463149273912508"
+    }
+  ]
+}
