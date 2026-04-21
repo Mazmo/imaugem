@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- BING WEBMASTER TOOLS — MÉTODO DE VERIFICAÇÃO: XML FILE -->
+<!--
+  INSTRUÇÃO:
+  1. Aceder a https://www.bing.com/webmasters
+  2. Adicionar site: https://www.imaugem.pt/
+  3. Seleccionar método "XML file"
+  4. O Bing fornece um ficheiro BingSiteAuth.xml com um código único
+  5. Substituir CÓDIGO_AQUI pelo valor real que o Bing fornece
+  6. Publicar em https://www.imaugem.pt/BingSiteAuth.xml
+  7. Clicar "Verify" no Bing Webmaster Tools
+
+  ALTERNATIVA — Meta tag no <head>:
+  <meta name="msvalidate.01" content="CÓDIGO_FORNECIDO_PELO_BING">
+
+  ATALHO: Se já tiver o Google Search Console verificado,
+  use "Import from Google Search Console" no Bing WMT —
+  poupa toda a verificação manual.
+-->
+<users>
+  <user>CÓDIGO_AQUI</user>
+</users>

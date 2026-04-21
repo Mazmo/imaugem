@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "RealEstateAgent",
+      "@type": ["RealEstateAgent", "LocalBusiness"],
       "@id": "https://www.imaugem.pt/#organization",
       "name": "IMAUGEM – MaisConsultores #RealEstateCascais",
       "alternateName": ["IMAUGEM", "MaisConsultores RealEstateCascais", "Real Estate Cascais"],
@@ -12,11 +12,12 @@
       "description": "Agência imobiliária em Cascais integrada na rede MaisConsultores #RealEstateCascais. Especialistas na compra, venda e arrendamento de imóveis na Linha de Cascais, Estoril e arredores.",
       "slogan": "O seu imóvel em Cascais, com quem conhece cada rua.",
       "foundingDate": "2015",
+      "telephone": "+351XXXXXXXXX",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Avenida 25 de Abril, nº 5, R/c A",
         "addressLocality": "Cascais",
-        "addressRegion": "Cascais e Estoril",
+        "addressRegion": "Lisboa",
         "postalCode": "2750-513",
         "addressCountry": "PT"
       },
@@ -135,10 +136,12 @@
       "priceRange": "€€€",
       "currenciesAccepted": "EUR",
       "paymentAccepted": "Transferência bancária, Cheque",
+      "telephone": "+351XXXXXXXXX",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Avenida 25 de Abril, nº 5, R/c A",
         "addressLocality": "Cascais",
+        "addressRegion": "Lisboa",
         "postalCode": "2750-513",
         "addressCountry": "PT"
       },

@@ -5,7 +5,23 @@ Allow: /
 Sitemap: https://www.imaugem.pt/sitemap.xml
 Sitemap: https://www.imaugem.pt/sitemap-imoveis.xml
 
-# AI / LLM indexing
+# Search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI / LLM crawlers
 User-agent: GPTBot
 Allow: /
 
@@ -18,11 +34,18 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Googlebot
+User-agent: OAI-SearchBot
 Allow: /
 
-User-agent: Bingbot
-Allow: /
-
+# Social / preview crawlers
 User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
 Allow: /
