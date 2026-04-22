@@ -2,8 +2,8 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://www.imaugem.pt/sitemap.xml
-Sitemap: https://www.imaugem.pt/sitemap-imoveis.xml
+Sitemap: https://imaugem.pt/sitemap.xml
+Sitemap: https://imaugem.pt/sitemap-imoveis.xml
 
 # AI / LLM indexing
 User-agent: GPTBot

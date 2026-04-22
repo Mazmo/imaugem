@@ -5,107 +5,107 @@
 
   <!-- Página principal -->
   <url>
-    <loc>https://www.imaugem.pt/</loc>
+    <loc>https://imaugem.pt/</loc>
     <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.imaugem.pt/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.imaugem.pt/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://imaugem.pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://imaugem.pt/"/>
   </url>
 
   <!-- Sobre nós / Quem somos -->
   <url>
-    <loc>https://www.imaugem.pt/sobre-nos</loc>
+    <loc>https://imaugem.pt/sobre-nos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Imóveis à venda -->
   <url>
-    <loc>https://www.imaugem.pt/imoveis/comprar</loc>
+    <loc>https://imaugem.pt/imoveis/comprar</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Imóveis para arrendamento -->
   <url>
-    <loc>https://www.imaugem.pt/imoveis/arrendar</loc>
+    <loc>https://imaugem.pt/imoveis/arrendar</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Páginas por zona -->
   <url>
-    <loc>https://www.imaugem.pt/imoveis/cascais</loc>
+    <loc>https://imaugem.pt/imoveis/cascais</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/imoveis/estoril</loc>
+    <loc>https://imaugem.pt/imoveis/estoril</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/imoveis/birre</loc>
+    <loc>https://imaugem.pt/imoveis/birre</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/imoveis/alcabideche</loc>
+    <loc>https://imaugem.pt/imoveis/alcabideche</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/imoveis/carcavelos</loc>
+    <loc>https://imaugem.pt/imoveis/carcavelos</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/imoveis/sao-domingos-de-rana</loc>
+    <loc>https://imaugem.pt/imoveis/sao-domingos-de-rana</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Consultores -->
   <url>
-    <loc>https://www.imaugem.pt/consultores</loc>
+    <loc>https://imaugem.pt/consultores</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/consultores/miguel-bicho</loc>
+    <loc>https://imaugem.pt/consultores/miguel-bicho</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/consultores/joao-vicente</loc>
+    <loc>https://imaugem.pt/consultores/joao-vicente</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/consultores/georgina-silva</loc>
+    <loc>https://imaugem.pt/consultores/georgina-silva</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/consultores/georgina-antigo</loc>
+    <loc>https://imaugem.pt/consultores/georgina-antigo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/consultores/bruno-ferreira</loc>
+    <loc>https://imaugem.pt/consultores/bruno-ferreira</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.imaugem.pt/consultores/veronica-iacob</loc>
+    <loc>https://imaugem.pt/consultores/veronica-iacob</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Contactos -->
   <url>
-    <loc>https://www.imaugem.pt/contactos</loc>
+    <loc>https://imaugem.pt/contactos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
