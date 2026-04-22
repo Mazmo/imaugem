@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>IMAUGEM — Fotografia Imobiliária | Lisboa · Cascais · Oeiras · Sintra</title>
+  <meta name="description" content="Fotografia imobiliária profissional com luz natural e composição cuidada. Entrega em 24h–48h. Lisboa, Cascais, Oeiras e Sintra.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.imaugem.pt/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="IMAUGEM — Fotografia Imobiliária">
+  <meta property="og:title" content="IMAUGEM — Fotografia Imobiliária">
+  <meta property="og:description" content="A imagem que valoriza o imóvel e acelera a venda. Lisboa · Cascais · Oeiras · Sintra.">
+  <meta property="og:url" content="https://www.imaugem.pt/">
+  <meta property="og:image" content="https://www.imaugem.pt/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_PT">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IMAUGEM — Fotografia Imobiliária">
+  <meta name="twitter:description" content="A imagem que valoriza o imóvel e acelera a venda. Lisboa · Cascais · Oeiras · Sintra.">
+  <meta name="twitter:image" content="https://www.imaugem.pt/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #0a0a0a;
+      --fg: #f0f0f0;
+      --muted: #888;
+      --border: #222;
+      --card-bg: #111;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ─── NAV ─────────────────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background: rgba(10, 10, 10, 0.96);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-logo {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: lowercase;
+    }
+
+    /* MISSING: nav logo image — restore when /assets/logo.* is available */
+    .nav-logo img {
+      height: 28px;
+      width: auto;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.8;
+      transition: opacity 0.2s;
+    }
+
+    .nav-links a:hover {
+      opacity: 1;
+    }
+
+    .nav-whatsapp {
+      background: #25D366;
+      color: #fff !important;
+      padding: 7px 16px;
+      border-radius: 2px;
+      opacity: 1 !important;
+    }
+
+    .nav-lang {
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      cursor: pointer;
+    }
+
+    /* ─── HERO ────────────────────────────────────────────── */
+    #inicio {
+      padding-top: 81px; /* nav height */
+    }
+
+    .hero-text {
+      padding: 80px 40px 48px;
+      max-width: 860px;
+    }
+
+    .hero-title {
+      font-size: clamp(38px, 6vw, 76px);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      line-height: 1.05;
+      margin-bottom: 24px;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(16px, 2.2vw, 22px);
+      font-weight: 400;
+      color: var(--fg);
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+
+    .hero-desc {
+      font-size: 15px;
+      color: var(--muted);
+      max-width: 520px;
+      line-height: 1.75;
+    }
+
+    .hero-image-wrap {
+      position: relative;
+      width: 100%;
+    }
+
+    .hero-image-wrap img {
+      width: 100%;
+      height: 70vh;
+      object-fit: cover;
+    }
+
+    /* MISSING: hero image — placeholder shown until /assets/hero.jpg restored */
+    .hero-img-placeholder {
+      width: 100%;
+      height: 70vh;
+      background: #141414;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 0.1em;
+    }
+
+    .hero-caption {
+      position: absolute;
+      bottom: 20px;
+      left: 24px;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .hero-cta-row {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      padding: 36px 40px;
+      flex-wrap: wrap;
+    }
+
+    .hero-cta {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--fg);
+      padding-bottom: 3px;
+      transition: opacity 0.2s;
+    }
+
+    .hero-cta:hover {
+      opacity: 0.7;
+    }
+
+    .hero-badges {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 7px 13px;
+    }
+
+    /* ─── PORTFOLIO ───────────────────────────────────────── */
+    #portfolio {
+      padding: 100px 40px 80px;
+      border-top: 1px solid var(--border);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 48px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .section-title {
+      font-size: clamp(26px, 4vw, 52px);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+    }
+
+    .section-cta {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--fg);
+      padding-bottom: 3px;
+      white-space: nowrap;
+      transition: opacity 0.2s;
+    }
+
+    .section-cta:hover {
+      opacity: 0.7;
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+    }
+
+    .portfolio-item {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .portfolio-item:hover .portfolio-overlay {
+      opacity: 1;
+    }
+
+    /* MISSING: all 12 portfolio images — placeholders shown until assets restored */
+    .portfolio-img-placeholder {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      background: #141414;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .portfolio-item:hover img {
+      transform: scale(1.03);
+    }
+
+    .portfolio-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, transparent 60%);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 22px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .portfolio-location {
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-link {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #fff;
+      border-bottom: 1px solid rgba(255,255,255,0.6);
+      padding-bottom: 2px;
+    }
+
+    .carousel-nav {
+      display: flex;
+      gap: 12px;
+      margin-top: 28px;
+      justify-content: center;
+    }
+
+    .carousel-btn {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--fg);
+      width: 44px;
+      height: 44px;
+      font-size: 17px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.2s;
+    }
+
+    .carousel-btn:hover {
+      border-color: var(--fg);
+    }
+
+    /* ─── PRICES ──────────────────────────────────────────── */
+    #precos {
+      padding: 100px 40px 80px;
+      border-top: 1px solid var(--border);
+    }
+
+    .prices-block-title {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 36px;
+    }
+
+    .price-table {
+      width: 100%;
+      max-width: 540px;
+      margin-bottom: 64px;
+    }
+
+    .price-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .price-row:first-child {
+      border-top: 1px solid var(--border);
+    }
+
+    .price-label {
+      font-size: 14px;
+      color: var(--fg);
+    }
+
+    .price-value {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--fg);
+    }
+
+    .packs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      max-width: 860px;
+      margin-top: 64px;
+    }
+
+    .pack {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 36px 30px;
+    }
+
+    .pack-name {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .pack-desc {
+      font-size: 14px;
+      color: var(--fg);
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    .pack-price {
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--fg);
+      letter-spacing: -0.01em;
+      margin-bottom: 28px;
+    }
+
+    .pack-btn {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--bg);
+      background: var(--fg);
+      padding: 11px 22px;
+      transition: opacity 0.2s;
+    }
+
+    .pack-btn:hover {
+      opacity: 0.85;
+    }
+
+    .prices-note {
+      margin-top: 40px;
+      font-size: 12px;
+      color: var(--muted);
+      max-width: 680px;
+      line-height: 1.8;
+    }
+
+    /* ─── DIFERENCIAIS ────────────────────────────────────── */
+    #diferenciais {
+      padding: 100px 40px 80px;
+      border-top: 1px solid var(--border);
+    }
+
+    .diferenciais-title {
+      font-size: clamp(26px, 4vw, 52px);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      margin-bottom: 52px;
+    }
+
+    .diferenciais-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      max-width: 600px;
+    }
+
+    .diferenciais-list li {
+      font-size: 16px;
+      color: var(--fg);
+      letter-spacing: 0.02em;
+    }
+
+    .iva-note {
+      margin-top: 52px;
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.02em;
+    }
+
+    /* ─── FOOTER ──────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 48px 40px;
+    }
+
+    .footer-contact {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: var(--fg);
+      margin-bottom: 32px;
+    }
+
+    .footer-contact a:hover {
+      opacity: 0.7;
+    }
+
+    .footer-contact .separator {
+      color: var(--border);
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+
+    .footer-social a {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 3px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .footer-social a:hover {
+      color: var(--fg);
+      border-color: var(--fg);
+    }
+
+    .footer-copy {
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+
+    /* ─── RESPONSIVE ──────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .packs {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        padding: 16px 20px;
+      }
+
+      .nav-links {
+        gap: 18px;
+      }
+
+      .nav-links li.nav-hide-mobile {
+        display: none;
+      }
+
+      .hero-text {
+        padding: 60px 20px 36px;
+      }
+
+      .hero-cta-row {
+        padding: 24px 20px;
+        gap: 20px;
+      }
+
+      #portfolio {
+        padding: 60px 20px 50px;
+      }
+
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+
+      #precos {
+        padding: 60px 20px 50px;
+      }
+
+      #diferenciais {
+        padding: 60px 20px 50px;
+      }
+
+      footer {
+        padding: 40px 20px;
+      }
+
+      .footer-contact {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      .footer-contact .separator {
+        display: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .nav-links {
+        gap: 12px;
+      }
+
+      .hero-badges {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════════════════════ -->
+  <nav>
+    <!-- MISSING: logo image — restore /assets/logo.[png|svg] and uncomment img tag -->
+    <a href="#inicio" class="nav-logo">imaugem</a>
+
+    <ul class="nav-links">
+      <li class="nav-hide-mobile"><a href="#inicio">Início</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#precos">Preços</a></li>
+      <li class="nav-hide-mobile"><a href="#diferenciais">Diferenciais</a></li>
+      <li>
+        <a href="https://wa.me/351915787750" class="nav-whatsapp" target="_blank" rel="noopener noreferrer">
+          WhatsApp
+        </a>
+      </li>
+      <li><span class="nav-lang">EN</span></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HERO — #inicio
+  ═══════════════════════════════════════════════════════ -->
+  <section id="inicio">
+    <div class="hero-text">
+      <h1 class="hero-title">FOTOGRAFIA IMOBILIÁRIA</h1>
+      <p class="hero-subtitle">A imagem que valoriza o imóvel e acelera a venda</p>
+      <p class="hero-desc">Fotografia profissional com luz natural e composição cuidada para valorizar cada detalhe do seu anúncio.</p>
+    </div>
+
+    <div class="hero-image-wrap">
+      <!-- MISSING: hero image — restore /assets/hero-cascais.jpg and replace placeholder below -->
+      <div class="hero-img-placeholder" aria-label="Cascais — Fotografia Imobiliária">
+        [imagem · Cascais — Fotografia Imobiliária]
+      </div>
+      <!--
+      <img src="/assets/hero-cascais.jpg" alt="Cascais — Fotografia Imobiliária" width="1920" height="1080">
+      -->
+      <span class="hero-caption">Cascais — Fotografia Imobiliária</span>
+    </div>
+
+    <div class="hero-cta-row">
+      <a href="https://www.behance.net/imaugem" class="hero-cta" target="_blank" rel="noopener noreferrer">
+        VER NO BEHANCE →
+      </a>
+      <div class="hero-badges">
+        <span class="badge">LISBOA · CASCAIS · OEIRAS · SINTRA</span>
+        <span class="badge">24H–48H · ENTREGA</span>
+        <span class="badge">VERTICAIS CORRIGIDAS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       PORTFOLIO — #portfolio
+  ═══════════════════════════════════════════════════════ -->
+  <section id="portfolio">
+    <div class="section-header">
+      <h2 class="section-title">PORTFÓLIO</h2>
+      <a href="https://www.behance.net/imaugem" class="section-cta" target="_blank" rel="noopener noreferrer">
+        VER TUDO NO BEHANCE →
+      </a>
+    </div>
+
+    <div class="portfolio-grid" id="portfolioGrid">
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/01-cascais.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Cascais</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/02-lapa-lisboa.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Apartamento — Lapa, Lisboa</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/03-infante-santo-lisboa.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Av. Infante Santo — Lisboa</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/04-parede-cascais.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Apartamento — Parede, Cascais</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/05-interiores-lisboa-cascais.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Interiores — Lisboa e Cascais</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/06-fachadas-exteriores.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Fachadas e Exteriores</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/07-piscinas-externas.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Piscinas e Áreas Externas</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/08-tortugas-guaruja.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Tortugas — Guarujá · SP</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/09-casa-iporanga-guaruja.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Casa Iporanga — Guarujá</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/10-sitio-sao-pedro-1-guaruja.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Casa Sítio São Pedro I — Guarujá</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/11-sitio-sao-pedro-2-guaruja.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Casa Sítio São Pedro II — Guarujá</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <!-- MISSING: /assets/portfolio/12-sitio-sao-pedro-3-guaruja.jpg -->
+        <div class="portfolio-img-placeholder" aria-hidden="true">[imagem]</div>
+        <div class="portfolio-overlay">
+          <span class="portfolio-location">Casa Sítio São Pedro III — Guarujá</span>
+          <a href="https://www.behance.net/imaugem" class="portfolio-link" target="_blank" rel="noopener noreferrer">VER PROJETO →</a>
+        </div>
+      </div>
+
+    </div><!-- /portfolioGrid -->
+
+    <div class="carousel-nav" aria-label="Navegação do portfólio">
+      <button class="carousel-btn" id="prevBtn" aria-label="Anterior">←</button>
+      <button class="carousel-btn" id="nextBtn" aria-label="Seguinte">→</button>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       PRICES — #precos
+  ═══════════════════════════════════════════════════════ -->
+  <section id="precos">
+
+    <p class="prices-block-title">FOTOGRAFIA BASE</p>
+
+    <div class="price-table">
+      <div class="price-row">
+        <span class="price-label">T1</span>
+        <span class="price-value">40€</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">T2</span>
+        <span class="price-value">40€</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">T3</span>
+        <span class="price-value">45€</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">T4</span>
+        <span class="price-value">50€</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">T5 / Moradia pequena</span>
+        <span class="price-value">60€</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">Moradias grandes / Quintas</span>
+        <span class="price-value">desde 70€</span>
+      </div>
+    </div>
+
+    <p class="prices-block-title">EXTRAS</p>
+
+    <div class="price-table">
+      <div class="price-row">
+        <span class="price-label">Vídeo Reels (até 60s)</span>
+        <span class="price-value">30€</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">Drone</span>
+        <span class="price-value">40€</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">Visita Virtual / 360°</span>
+        <span class="price-value">40€</span>
+      </div>
+    </div>
+
+    <div class="packs">
+
+      <div class="pack">
+        <p class="pack-name">VENDA RÁPIDA</p>
+        <p class="pack-desc">Fotos + Reels</p>
+        <p class="pack-price">65€</p>
+        <a href="https://wa.me/351915787750?text=Olá%2C%20quero%20saber%20mais%20sobre%20o%20Pack%20Venda%20Rápida%20(Fotos%20%2B%20Reels%20a%2065€)"
+           class="pack-btn" target="_blank" rel="noopener noreferrer">PEDIR AGORA</a>
+      </div>
+
+      <div class="pack">
+        <p class="pack-name">PACK CAPTAÇÃO</p>
+        <p class="pack-desc">Fotos + Drone</p>
+        <p class="pack-price">75€</p>
+        <a href="https://wa.me/351915787750?text=Olá%2C%20quero%20saber%20mais%20sobre%20o%20Pack%20Captação%20(Fotos%20%2B%20Drone%20a%2075€)"
+           class="pack-btn" target="_blank" rel="noopener noreferrer">PEDIR AGORA</a>
+      </div>
+
+      <div class="pack">
+        <p class="pack-name">PACK COMPLETO</p>
+        <p class="pack-desc">Fotos + Reels + Drone + Visita Virtual</p>
+        <p class="pack-price">135€</p>
+        <a href="https://wa.me/351915787750?text=Olá%2C%20quero%20saber%20mais%20sobre%20o%20Pack%20Completo%20(135€)"
+           class="pack-btn" target="_blank" rel="noopener noreferrer">PEDIR AGORA</a>
+      </div>
+
+    </div>
+
+    <p class="prices-note">
+      Preços pensados para agências e profissionais do setor · Condições especiais para volume mensal · Valores sujeitos à tipologia, área, localização e complexidade do imóvel.
+    </p>
+
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       DIFERENCIAIS — #diferenciais
+  ═══════════════════════════════════════════════════════ -->
+  <section id="diferenciais">
+    <h2 class="diferenciais-title">DIFERENCIAIS</h2>
+    <ul class="diferenciais-list">
+      <li>✓&nbsp; Entrega em 24h / 48h</li>
+      <li>✓&nbsp; Olhar de Arquiteto</li>
+      <li>✓&nbsp; Deslocação Lisboa / Cascais / Sintra</li>
+      <li>✓&nbsp; Edição profissional incluída</li>
+    </ul>
+    <p class="iva-note">Aos valores indicados acresce IVA à taxa legal.</p>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-contact">
+      <a href="mailto:imaugem@gmail.com">imaugem@gmail.com</a>
+      <span class="separator">|</span>
+      <a href="tel:+351915787750">+351 915 787 750</a>
+      <span class="separator">|</span>
+      <a href="https://www.instagram.com/imaugem" target="_blank" rel="noopener noreferrer">@imaugem</a>
+    </div>
+    <nav class="footer-social" aria-label="Redes sociais">
+      <a href="https://www.instagram.com/imaugem" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+      <a href="https://www.behance.net/imaugem" target="_blank" rel="noopener noreferrer">BEHANCE</a>
+      <a href="https://linktr.ee/imaugem" target="_blank" rel="noopener noreferrer">LINKTREE</a>
+      <a href="https://wa.me/351915787750" target="_blank" rel="noopener noreferrer">WHATSAPP</a>
+    </nav>
+    <p class="footer-copy">© 2026 IMAUGEM · Fotografia Imobiliária · Parede, Portugal</p>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SCRIPTS
+  ═══════════════════════════════════════════════════════ -->
+  <script>
+    (function () {
+      var grid = document.getElementById('portfolioGrid');
+      var items = Array.from(grid.children);
+      var perPage = 3;
+      var page = 0;
+      var totalPages = Math.ceil(items.length / perPage);
+      var isMobile = false;
+
+      function showPage(p) {
+        items.forEach(function (item, i) {
+          item.style.display = (i >= p * perPage && i < (p + 1) * perPage) ? '' : 'none';
+        });
+      }
+
+      function showAll() {
+        items.forEach(function (item) {
+          item.style.display = '';
+        });
+      }
+
+      function update() {
+        isMobile = window.innerWidth <= 768;
+        if (isMobile) {
+          showPage(page);
+        } else {
+          showAll();
+        }
+      }
+
+      document.getElementById('prevBtn').addEventListener('click', function () {
+        if (!isMobile) return;
+        page = (page - 1 + totalPages) % totalPages;
+        showPage(page);
+      });
+
+      document.getElementById('nextBtn').addEventListener('click', function () {
+        if (!isMobile) return;
+        page = (page + 1) % totalPages;
+        showPage(page);
+      });
+
+      window.addEventListener('resize', update);
+      update();
+    })();
+  </script>
+
+</body>
+</html>
