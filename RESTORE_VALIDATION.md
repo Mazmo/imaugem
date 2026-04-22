@@ -1,5 +1,5 @@
 # RESTORE_VALIDATION.md
-> Generated: 2026-04-22
+> Generated: 2026-04-22 · Updated: 2026-04-22 (auto-asset-search pass)
 > Branch: claude/restore-website-backup-ljXPz
 
 ---
@@ -157,6 +157,20 @@ Upload contents of `restored-site/` to the `public_html/` root.
 
 ---
 
+## Auto Asset Search Result (2026-04-22)
+
+Searched entire local filesystem for any image/icon file that could match
+referenced assets. **Result: 0 matches found.** No image files exist anywhere
+in this environment. All 17 assets must be sourced from the local backup drive.
+
+Command used:
+```
+find / -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.svg" -o -iname "*.ico" \)
+→ 0 results (excluding system/browser binaries)
+```
+
+---
+
 ## Site Ready to Publish?
 
 | Criterion | Status |
@@ -167,7 +181,7 @@ Upload contents of `restored-site/` to the `public_html/` root.
 | WhatsApp CTAs | ✅ Ready |
 | SEO / meta tags | ✅ Ready |
 | Responsive layout | ✅ Ready |
-| Images | ❌ Not ready — 17 files missing |
+| Images | ❌ Not ready — 17 files missing, not found on system |
 | Favicon / social preview | ❌ Not ready — files missing |
 
-**Verdict: Content complete and structurally deployable. Not visually complete until images are added.**
+**Verdict: INCOMPLETE. Content and structure are publish-ready. Site cannot go live without images.**
