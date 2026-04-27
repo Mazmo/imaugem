@@ -1,0 +1,42 @@
+CAPTAÇÃO DE LEADS — SUMMIT IMOBILIÁRIO PORTUGAL 2026
+====================================================
+
+FICHEIROS
+---------
+  index.html   → Landing page do formulário
+  server.py    → Servidor local (Python 3, sem instalações)
+  leads.csv    → Registo dos contactos captados
+
+COMO CORRER
+-----------
+  1. Abrir terminal nesta pasta (captacao/)
+  2. python3 server.py
+  3. Abrir browser em: http://localhost:8000
+
+  Cada envio do formulário guarda automaticamente
+  nome + telefone + data no ficheiro leads.csv
+
+PARTILHAR O LINK COM O GRUPO
+-----------------------------
+  Para acesso externo (telemóvel ou grupo de WhatsApp):
+
+  Opção A — ngrok (gratuito):
+    1. Descarregar em: https://ngrok.com/download
+    2. ngrok http 8000
+    3. Copiar o URL https://xxxxx.ngrok.io
+    4. Partilhar esse URL no grupo
+
+  Opção B — mesma rede Wi-Fi:
+    1. Descobrir o IP local: ip addr  (Linux/Mac: ifconfig)
+    2. Partilhar: http://SEU_IP:8000
+
+VER OS LEADS CAPTADOS
+---------------------
+  Abrir leads.csv com:
+    - Excel / LibreOffice Calc
+    - Google Sheets (importar)
+    - Qualquer editor de texto
+
+REQUISITOS
+----------
+  Python 3.7 ou superior. Sem dependências externas.
