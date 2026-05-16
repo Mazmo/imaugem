@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Idealista 360 Tour Builder</title>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1>🏠 360 Tour Builder</h1>
+    <span id="project-name" class="project-label">—</span>
+    <div class="header-actions">
+      <button id="btn-index"   class="btn btn-secondary">↺ Indexar Imagens</button>
+      <button id="btn-save"    class="btn btn-primary"   disabled>💾 Guardar Projeto</button>
+      <button id="btn-xml"     class="btn btn-outline"   disabled>⬇ Exportar XML</button>
+      <button id="btn-package" class="btn btn-outline"   disabled>📦 Exportar Pacote Final</button>
+      <button id="btn-report"  class="btn btn-ghost">📋 Relatório</button>
+    </div>
+  </div>
+  <div id="status-bar" class="status-bar hidden"></div>
+</header>
+
+<main>
+  <!-- GRID -->
+  <section id="grid-section">
+    <div id="grid-header">
+      <h2>Divisões do Tour <span id="count-badge" class="badge">0</span></h2>
+      <p class="hint">Arrasta para reordenar · Clica para editar</p>
+    </div>
+    <div id="warnings" class="warnings hidden"></div>
+    <div id="grid" class="grid"></div>
+    <div id="empty-state" class="empty-state">
+      <p>Clica em <strong>↺ Indexar Imagens</strong> para começar.</p>
+    </div>
+  </section>
+
+  <!-- EDIT PANEL -->
+  <aside id="edit-panel" class="edit-panel hidden">
+    <div class="panel-header">
+      <h3>Editar Divisão</h3>
+      <button id="panel-close" class="btn-icon" title="Fechar">✕</button>
+    </div>
+    <div class="panel-preview">
+      <img id="panel-img" src="" alt="preview" />
+      <div class="panel-info">
+        <small id="panel-filename"></small>
+        <small id="panel-dims"></small>
+        <small id="panel-eq"></small>
+      </div>
+    </div>
+    <div class="panel-form">
+      <label>Título da Divisão
+        <input id="f-title" type="text" placeholder="ex: Sala de Estar" />
+      </label>
+      <label>Piso
+        <select id="f-floor">
+          <option value="">— selecionar —</option>
+          <option value="cave">Cave</option>
+          <option value="r/c">R/C</option>
+          <option value="1">1.º Andar</option>
+          <option value="2">2.º Andar</option>
+          <option value="3">3.º Andar</option>
+          <option value="cobertura">Cobertura</option>
+        </select>
+      </label>
+      <label>Descrição curta
+        <textarea id="f-desc" rows="2" placeholder="ex: Ampla sala com luz natural"></textarea>
+      </label>
+      <label>Nome do ficheiro exportado
+        <input id="f-exported" type="text" placeholder="ex: 002_sala.jpg" />
+      </label>
+
+      <div class="section-title">Conexões / Hotspots</div>
+      <div id="connections-list" class="connections-list"></div>
+      <button id="btn-add-conn" class="btn btn-small btn-outline">+ Adicionar Conexão</button>
+
+      <div class="panel-footer">
+        <button id="btn-apply" class="btn btn-primary">✓ Aplicar</button>
+        <button id="btn-cancel-edit" class="btn btn-ghost">Cancelar</button>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<!-- MODAL REPORT -->
+<div id="modal-report" class="modal hidden">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3>Relatório de Processamento</h3>
+      <button class="btn-icon modal-close" data-target="modal-report">✕</button>
+    </div>
+    <pre id="report-content" class="report-pre"></pre>
+  </div>
+</div>
+
+<!-- MODAL RESULT -->
+<div id="modal-result" class="modal hidden">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3 id="result-title">Resultado</h3>
+      <button class="btn-icon modal-close" data-target="modal-result">✕</button>
+    </div>
+    <pre id="result-content" class="report-pre"></pre>
+  </div>
+</div>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
