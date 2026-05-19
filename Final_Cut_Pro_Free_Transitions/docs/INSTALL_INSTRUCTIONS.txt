@@ -1,0 +1,180 @@
+================================================================================
+INSTRUÇÕES DE INSTALAÇÃO - Final Cut Pro Free Transitions
+================================================================================
+Guia completo para instalar Motion Templates no Final Cut Pro
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 1: TIPOS DE FICHEIROS E O QUE SIGNIFICAM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+.localized    → Pasta "localizada" do macOS — é uma pasta, não um ficheiro
+               Contém os dados do template. O nome aparece traduzido no Finder.
+
+.moti         → Ficheiro de template Apple Motion (transição individual)
+               Instalação: copia para a pasta de templates do FCP
+
+.motr         → Variante de template Motion (rig interativo)
+               Instalação: igual ao .moti
+
+.moef         → Motion Effect — usado por plugins como FxFactory
+               Não se instala manualmente (gerido pela app FxFactory)
+
+.fcptemplate  → Bundle de template FCP (pode conter .moti/.motr dentro)
+               Clica duas vezes para instalar automaticamente
+
+.mov          → Ficheiro de vídeo overlay (ex: CinePacks)
+               NÃO é um plugin — arrasta para a timeline do FCP
+               Muda o blend mode para "Screen" ou "Add"
+
+.pkg          → Instalador macOS — executa e segue as instruções
+               ATENÇÃO: Verifica a origem antes de instalar
+
+.dmg          → Imagem de disco macOS (ex: BretFX Power Tools)
+               Abre o .dmg, abre o .pkg dentro e instala
+
+.zip          → Arquivo comprimido — descompacta primeiro (clica duas vezes)
+               Dentro estará uma pasta .localized ou .fcptemplate
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 2: CAMINHO DE INSTALAÇÃO DOS MOTION TEMPLATES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CAMINHO PRINCIPAL para transições:
+~/Movies/Motion Templates.localized/Transitions.localized/
+
+Caminho alternativo (versões antigas do FCP):
+~/Movies/Motion Templates/Transitions/
+
+NOTA: O "~" significa a tua pasta Home (ex: /Users/teu_nome/)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 3: CRIAR A PASTA SE NÃO EXISTIR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+No Terminal, copia e cola estes comandos:
+
+  mkdir -p ~/Movies/"Motion Templates.localized"/"Transitions.localized"
+
+Ou para verificar se já existe:
+  ls ~/Movies/ | grep -i motion
+
+Se a pasta "Motion Templates.localized" não aparecer, cria com o comando acima.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 4: INSTALAR TEMPLATES MIXKIT (.fcptemplate / .zip → .moti)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MÉTODO A — Instalação automática (mais fácil):
+1. Descompacta o .zip (clica duas vezes no Finder)
+2. Encontra o ficheiro .fcptemplate dentro
+3. Clica DUAS VEZES no .fcptemplate
+   → O Final Cut Pro abre e instala automaticamente
+4. Reinicia o FCP se necessário
+5. Procura a transição em: Efeitos → Transições → [nome do pack]
+
+MÉTODO B — Instalação manual:
+1. Descompacta o .zip
+2. Copia a pasta resultante (ex: "Sliding Square Transition") para:
+   ~/Movies/Motion Templates.localized/Transitions.localized/
+3. Reinicia o Final Cut Pro
+4. A transição aparece no browser de transições
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 5: INSTALAR TEMPLATES RYAN NANGLE (.zip → pasta .localized)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Descompacta o .zip recebido por email (Sellfy)
+2. Dentro encontrarás uma pasta com extensão .localized
+   (ex: "Free Shake Transition.localized")
+3. Copia essa pasta para:
+   ~/Movies/Motion Templates.localized/Transitions.localized/
+4. Reinicia o Final Cut Pro
+5. Vai a: Efeitos → Transições → procura pelo nome do pack
+
+   No Terminal:
+   cp -r ~/Downloads/"Free Shake Transition.localized" \
+     ~/Movies/"Motion Templates.localized"/"Transitions.localized"/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 6: INSTALAR BRETFX (.dmg)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Clica duas vezes no .dmg para montar
+2. Dentro do volume montado, abre o instalador .pkg
+3. Segue as instruções do instalador
+4. Ejecta o volume após instalação
+5. Reinicia o Final Cut Pro
+6. Os plugins aparecem nas categorias correspondentes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 7: INSTALAR FXFACTORY PLUGINS (.moef)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Descarrega e instala a app FxFactory de: https://fxfactory.com/download/
+2. Abre FxFactory e cria uma conta gratuita (email necessário)
+3. Procura o plugin gratuito dentro da app (ex: "Andy's Swish Transitions")
+4. Clica em "Get" / "Install"
+5. FxFactory gere a instalação automaticamente
+6. Os plugins ficam disponíveis no FCP sem configuração adicional
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 8: USAR CINEPACKS (.mov overlays)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Os ficheiros CinePacks são vídeos .mov, não plugins nativos. Usam-se assim:
+
+1. Descompacta o .zip recebido após checkout
+2. Importa os ficheiros .mov para o teu projeto FCP
+3. Arrasta o clip .mov para a timeline, ACIMA do teu vídeo
+4. No inspector, muda o "Blend Mode" para:
+   - "Screen" → para efeitos sobre fundo preto
+   - "Add" → para efeitos luminosos (flares, etc.)
+   - "Multiply" → para efeitos sobre fundo branco (papel, etc.)
+5. O efeito mistura-se com o teu vídeo sem necessidade de keyframes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 9: INSTALAR MOTIONVFX (via mExtension)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Cria conta gratuita em: https://www.motionvfx.com
+2. Descarrega mExtension: https://www.motionvfx.com/mextension
+3. Instala mExtension (é um plugin para o FCP)
+4. Abre o Final Cut Pro → verás o browser mExtension no painel
+5. Navega até "Free Elements Collection"
+6. Clica nos itens para instalar diretamente no FCP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 10: VERIFICAR INSTALAÇÃO NO FINAL CUT PRO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+No Final Cut Pro:
+1. Abre o browser de efeitos (tecla Command+5)
+2. Clica em "Transições" no topo
+3. Os packs instalados aparecem como categorias na coluna esquerda
+4. Para usar: arrasta a transição para o ponto de corte entre dois clips
+
+Se uma transição não aparecer:
+- Verifica se a copiaste para a pasta correta
+- Reinicia o Final Cut Pro (Command+Q e reabre)
+- Verifica compatibilidade: Menu → Final Cut Pro → Sobre (ver versão)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTE 11: COMPATIBILIDADE E ALERTAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠ ATENÇÃO: Verifica sempre a versão mínima do FCP requerida pelo pack.
+  - FCP 10.2.x → versões antigas (2015-2016)
+  - FCP 10.4.x → versões modernas (2018-2022)
+  - FCP 10.6.x → versões recentes (2023+)
+
+⚠ Apple Silicon: Confirma compatibilidade com M1/M2/M3/M4.
+  BretFX é Apple Silicon nativo. MotionVFX 10.4.8+ é nativo.
+  Plugins antigos podem exigir Rosetta 2.
+
+⚠ NUNCA instales plugins de fontes não verificadas.
+  Todos os links neste documento são de criadores reconhecidos.
+
+================================================================================
+FIM DAS INSTRUÇÕES
+================================================================================

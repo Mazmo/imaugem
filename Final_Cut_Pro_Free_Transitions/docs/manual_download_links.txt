@@ -1,0 +1,245 @@
+================================================================================
+LINKS PARA DOWNLOAD MANUAL - Final Cut Pro Free Transitions
+================================================================================
+Data de geração: 2026-05-19
+NOTA: Estes links requerem ação manual (email, conta, ou app proprietária).
+      NÃO foram baixados automaticamente. Acede a cada link manualmente.
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FONTE 1: RYAN NANGLE (finalcutplugs.com)
+Requisito: Email (via Sellfy checkout — sem conta paga necessária)
+Formato: .zip → pasta .localized (Motion Template)
+Instalação: ~/Movies/Motion Templates.localized/Transitions.localized/
+Licença: Uso pessoal (não redistribuir/revender)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. AI Transition Pack (20 transições) — FCP 10.6.3+
+    https://www.finalcutplugs.com/p/ai-transition/
+
+ 2. Free Paper Tear Transitions (2 presets + 2 SFX) — FCP 10.6.4+
+    https://www.finalcutplugs.com/p/free-paper-tear-transitions-final-cut-pro/
+
+ 3. Free Paper Tear Transition (pack antigo) — FCP 10.4.4+
+    https://www.finalcutplugs.com/p/free-paper-tear-transition-final-cut-pro-x/
+
+ 4. Free Shake Transition — FCP 10.2.1+
+    https://10154417130356796.sellfy.store/p/7CdI/
+
+ 5. Free Rotation Transitions (5 presets) — FCP 10.2.1+
+    https://10154417130356796.sellfy.store/p/2Jsp/
+
+ 6. Free Quick Blur Transitions (3 presets)
+    https://10154417130356796.sellfy.store/p/6BnK/
+
+ 7. Free Light Leak Transitions (6 presets) — FCP 10.3.1+
+    https://www.finalcutplugs.com/p/DBsP/
+
+ 8. Free Flash Transitions (2 presets) — FCP 10.6.4+
+    https://www.finalcutplugs.com/p/free-flash-transitions-final-cut-pro/
+
+ 9. Free Fast Pan Transitions (3 presets)
+    https://www.finalcutplugs.com/p/j8aO/
+
+10. Free 360 Distort Transitions (2 presets)
+    https://www.finalcutplugs.com/p/jsnrzm/
+
+11. Free Vlog Transitions — FCP 10.2.1+
+    https://www.finalcutplugs.com/p/4qvy/
+
+12. Free Camera Whip Transition — FCP 10.4.4+
+    https://www.finalcutplugs.com/p/2hpX/
+
+13. Free Split Transition Pack — FCP 10.3.1+
+    https://www.finalcutplugs.com/p/FEnG/
+
+14. Free Twitch Transitions
+    https://www.finalcutplugs.com/p/7qnK/
+
+15. Free Watercolor Transitions
+    https://www.finalcutplugs.com/p/oJAd/
+
+16. Free 8mm Transition — FCP 10.4.4+
+    https://www.finalcutplugs.com/p/8mm-transition-final-cut-pro/
+
+17. Free Money Transition (1 preset)
+    https://www.finalcutplugs.com/p/free-money-transition/
+
+18. Free Smooth Slide Transition
+    https://10154417130356796.sellfy.store/p/psnd/
+
+19. Free Glitch Effects Pack (5 efeitos)
+    https://10154417130356796.sellfy.store/p/WZso/
+
+    → Loja completa: https://www.finalcutplugs.com/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FONTE 2: BRETFX (bretfx.com)
+Requisito: Checkout WooCommerce (email provável)
+Formato: .dmg (installer)
+Licença: Gratuito para uso pessoal/comercial
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Power Tools LITE (30 itens: títulos, efeitos, transições) — FCP 10.4.7+
+    https://www.bretfx.com/product/power-tools/
+
+ 2. Split Screen Transitions FREE SAMPLE (1 transição) — FCP 10.4+
+    https://www.bretfx.com/product/split-screen-transitions-free/
+
+    → Freebies completos: https://www.bretfx.com/product-category/freebies/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FONTE 3: MOTIONVFX (motionvfx.com)
+Requisito: Conta gratuita MotionVFX + app mInstaller ou mExtension
+Formato: Instalado via app proprietária (não .zip direto)
+Licença: Gratuito perpétuo
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. mLUT Plugin (carregador de LUTs) — FCP 10.4.8+
+    https://www.motionvfx.com/store,mlut-plugin,p1949.html
+
+ 2. mLight Diffuse (efeitos de luz) — FCP 10.4.8+
+    https://www.motionvfx.com/store,mlight-diffuse,p3432.html
+
+ 3. mCamRig (animação de câmara) — FCP 10.3.3+
+    https://www.motionvfx.com/store,mcamrig,p2219.html
+
+ 4. Free Elements Collection (inclui transições) — via mExtension
+    https://www.motionvfx.com/mextension
+
+    → App mInstaller: https://www.motionvfx.com/minstaller
+    → Loja Free: https://www.motionvfx.com/store/final-cut-pro?free=true
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FONTE 4: FXFACTORY (fxfactory.com)
+Requisito: App FxFactory (Mac) + email de registo
+Formato: Plugin FxFactory (.moef) — gerido pela app
+Licença: Gratuito (termos variam por plugin)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Andy's Swish Transitions (FCP, Motion, Premiere, After Effects)
+    https://fxfactory.com/info/swishtransitions/
+
+ 2. Data Pop Free (versão limitada)
+    https://fxfactory.com/info/datapopfree/
+
+ 3. Adjustment Layers (free)
+    https://fxfactory.com/products/free/
+
+ 4. Pan and Zoom (free)
+    https://fxfactory.com/products/free/
+
+    → App FxFactory: https://fxfactory.com/download/
+    → Todos os gratuitos: https://fxfactory.com/products/free/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FONTE 5: LENOFX (lenofx.com)
+Requisito: Conta/email no checkout
+Formato: Plugin FCP X nativo (sem plugins de terceiros)
+Compatibilidade: FCP X, 720p/1080p/4K
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. 10 Clean Transitions Free — FCP X, 720p/1080p
+    https://lenofx.com/products/10-clean-transitions-free
+
+ 2. 10 Flat Transitions Free — FCP X, até 4K
+    https://lenofx.com/products/10-flat-transitions-free
+
+ 3. Free FCPX Pack (25 transições) — FCP X
+    https://lenofx.com/products/free-fcpx-pack
+
+ 4. 50 Fast Transitions 2 Demo — FCP X, até 4K
+    https://lenofx.com/collections/freebies/products/50-fast-transitions-2-demo
+
+    → Freebies: https://lenofx.com/collections/freebies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FONTE 6: CINEPACKS (cinepacks.store)
+Requisito: Email no checkout
+Formato: Ficheiros .mov overlay 4K (funcionam em qualquer NLE por drag-and-drop)
+Licença: Royalty-free, uso comercial permitido
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. FREE Foreground Transition FX Sample Pack
+    https://cinepacks.store/products/free-foreground-transition-fx-sample-pack
+
+ 2. FREE Paper Effects Sample Pack (Paper Rip FX — 18 transições)
+    https://cinepacks.store/collections/free-packs/products/free-paper-transition-sample-pack
+
+ 3. Glass FX Free Sample Pack
+    https://cinepacks.store/products/glass-fx-free-sample-pack
+
+ 4. FREE Money FX Sample Pack (~12 transições)
+    https://cinepacks.store/collections/free-packs/products/money-fx-free-sample-pack
+
+ 5. Free Smoke FX Sample
+    https://cinepacks.store/collections/free-packs/
+
+    → Todos os gratuitos: https://cinepacks.store/collections/free-packs/transitions
+    NOTA: São ficheiros .mov — arrasta para a timeline e muda o blend mode para "Screen" ou "Add"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FONTE 7: FCPX FULL ACCESS (fcpxfullaccess.com)
+Requisito: Email no checkout
+Formato: Plugin FCP X nativo
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Free Zoom Transition Pack (20 transições) — FCP X, 16:9
+    https://fcpxfullaccess.com/products/free-zoom-transition-pack-final-cut-pro-x
+
+ 2. FREE VHS Transition (1 transição) — FCP X
+    https://fcpxfullaccess.com/products/free-vhs-transition-final-cut-pro-x
+
+ 3. FREE Image Shift Transition (1 transição) — FCP X
+    https://fcpxfullaccess.com/products/free-image-shift-transition-for-final-cut-pro-x
+
+    → Todos os gratuitos: https://fcpxfullaccess.com/collections/free-plug-ins
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FONTE 8: MOTION ARRAY (motionarray.com)
+Requisito: Conta gratuita (sem cartão de crédito)
+Formato: .zip (Motion Templates)
+Licença: Motion Array Royalty-Free (uso comercial permitido)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Simple Transitions
+    https://motionarray.com/final-cut-pro-templates/simple-transitions-539838/
+
+ 2. FCPX Transitions (8 transições) — FCP 10.4.6+
+    https://motionarray.com/final-cut-pro-templates/fcpx-transitions-332933/
+
+ 3. Fast Zoom Transitions (7 transições)
+    https://motionarray.com/final-cut-pro-templates/fast-zoom-transitions-477152/
+
+ 4. Ink Flow Transitions (10 transições)
+    https://motionarray.com/final-cut-pro-templates/ink-flow-transitions-309094/
+
+ 5. Titles Transitions (6 transições)
+    https://motionarray.com/final-cut-pro-templates/titles-transitions-554587/
+
+ 6. Slides Transitions (12 transições)
+    https://motionarray.com/final-cut-pro-templates/slides-transitions-967915/
+
+ 7. Transitions Pack For FCP X (300+ transições — verificar se é free)
+    https://motionarray.com/final-cut-pro-templates/transitions-pack-for-fcp-x-265565/
+
+    → Página de gratuitos: https://motionarray.com/final-cut-pro-templates/free/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FONTE 9: STUPID RAISINS (stupidraisins.com)
+Requisito: Email + app Stupid Raisins
+Formato: Plugin FCP (.motr)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 1. Tile Pop (transição com azulejos)
+    https://stupidraisins.com/freebies/tile-pop/
+
+ 2. Fade In & Fade Out
+    https://stupidraisins.com/freebies/fade-in-out/
+
+    → Todos os freebies: https://stupidraisins.com/freebies/
+
+================================================================================
+RESUMO: 9 fontes | ~60+ packs gratuitos | Todos requerem ação manual
+         EXCEÇÃO: Mixkit — download direto sem email (ver pasta /downloads/)
+================================================================================
